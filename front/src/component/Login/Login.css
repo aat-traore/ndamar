@@ -1,0 +1,39 @@
+.login{
+    width: 400px;
+    background-color: blue;
+    height: 350px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+    
+}
+.e-con{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+.input-container{
+    display: flex; 
+    justify-content: space-around;
+    padding-top: 25px;
+   
+}
+.con-input{
+    height: 30px;
+    border-radius:5px;
+
+
+}
+.button-container{
+   text-align: center;
+   padding-top: 15px;
+}
+.b-con{
+height: 30px;
+width: 100px;
+border-radius: 10px;
+}
