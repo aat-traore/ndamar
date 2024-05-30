@@ -1,0 +1,46 @@
+ .container_service{
+    height: 70vh;
+ }
+.location_vente{
+   position: relative;
+     display: flex;
+     align-items:center;
+      justify-content: space-around;
+       height: 280px;
+     
+
+}
+ .location:hover{
+    background: rgb(233, 232, 238);
+    transition: all 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+ }
+ .vente_container:hover{
+    background: rgb(232, 232, 236);
+    
+ }
+.location{
+   position: absolute;
+   left: 0;
+   top: 0;
+     background: rgb(177, 45, 45); 
+      height: 250px; 
+      width: 100vh;
+       background-image: url("https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=400");
+        border-radius: 1rem;
+}
+
+.vente_container{
+   position: absolute;
+      right: 0;
+      margin-top: 21rem;
+     background: rgb(29, 158, 115);
+      width:100vh;
+       height: 250px;
+       background-image: url("https://images.pexels.com/photos/3758114/pexels-photo-3758114.jpeg?auto=compress&cs=tinysrgb&w=400");
+        border-radius: 1rem;
+}
+.card:hover .info,
+  .card:hover .info:before {
+    transform: translateY(0) translateZ(0);
+  }
+  
