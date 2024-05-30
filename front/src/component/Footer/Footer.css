@@ -2,17 +2,24 @@ body{
 	margin:0;
 	padding: 0;
 }
-.container{
+.container__header{
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: center; 
+	overflow: hidden;
+	 background: #ffff;
+	 height: 180px;
+
 }
+ .mylogo{
+	 height: 175px;
+ }
 /* style logo*/
-.name-logo h1 {
+.name-logo h2 {
 
 	color: white;
 	padding: 10px;
-	font-size: 25px;
+	font-size: 16px;
 }
 
 .Logo{
@@ -30,12 +37,12 @@ body{
 	display: inline-flex;
 	list-style: none;
 	font-size: 18px;
-	margin-right: 25px;
-	margin-left: 10px;
+	margin-right: 20px;
+	
 	
 }
 .nav-links {
-	color: rgb(28, 188, 172);
+    color: #1c5b72;
 	text-decoration: none;
   }
   li:hover .nav-links {
@@ -55,6 +62,7 @@ body{
 .button-nav{
 	width: 30%;
 }
+
 .Navigation{
 	width: 100%;
 	display: flex;
@@ -134,10 +142,10 @@ button.navbar-btn{
 	color: #fff;
 }    
 .btn.btn-custom {
-	width: 80px;
-	height: 40px;
-	border-radius: 20px;
-	color: #1565c0;
+	width: 120px;
+	height: 35px;
+	border-radius: 18px;
+	color: #1c5b72;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -155,12 +163,12 @@ button.navbar-btn{
 
 
 #sign-up:hover {
-	background-color: hsl(253, 79%, 45%);
+	background-color:#457b9d;
 	text-decoration: none;
 }
 
 #login:hover {
-	background-color: #0e23e2;
+	background-color:#457b9d;
 	text-decoration: none;
 }
 
@@ -168,10 +176,7 @@ button.navbar-btn{
 	background-color: #2979ff;
 }
 
-h1 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
-}
+
 
 #slogan {
 	font-family: 'Dancing Script', cursive;
@@ -201,4 +206,7 @@ h1 {
 
 .btn.btn-custom.override-nav-btn:focus {
 	background-color: #666ad1;
+}
+.footer-container{
+	 display:flex;
 }

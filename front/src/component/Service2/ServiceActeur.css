@@ -1,0 +1,139 @@
+
+  
+  .card {
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    min-height: 350px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+      0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-image: url("https://images.unsplash.com/photo-1542128962-9d50ad7bf014?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+    background-size: cover;
+  }
+  
+  .info {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .25);
+    transform: translateY(100%)
+      translateY(-88px)
+      translateZ(0);
+    transition: transform 0.5s ease-out;
+  }
+  
+  .info:before {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("https://images.unsplash.com/photo-1542128962-9d50ad7bf014?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%)
+      translateY(88px)
+      translateZ(0);
+    transition: transform 0.5s ease-out;
+  }
+  
+  .card:hover .info,
+  .card:hover .info:before {
+    transform: translateY(0) translateZ(0);
+  }
+  
+  .title {
+    margin: 0;
+    padding: 24px;
+    font-size: 25px;
+    line-height: 1;
+    color: #f1faee;
+  }
+  
+  .description {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 25px;
+    line-height: 1.5;
+     color:aliceblue
+  }
+  
+  /* General layout and typography stuff */
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+  
+  .service_acteur {
+    box-sizing: border-box;
+    position: relative;
+    transition: all .3s ease;
+  }
+  
+  html {
+    font-size: 16px
+  }
+  
+  .service_acteur{
+    font-family: Open Sans, Verdana, sans-serif;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 400;
+    
+  }
+  
+  
+  body,
+  .propos {
+    background: #fafafa;
+  }
+  
+ .propos {
+    padding: 40px;
+    min-height: 150px;
+    text-align: center;
+    color: rgba(0, 0, 0, .87)
+  }
+  
+  .propos > * {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  .propos>:last-child {
+    margin-bottom: 0
+  }
+  
+  h1 {
+    margin-bottom: 0.5em;
+    font-weight: inherit;
+    line-height: 1.2;
+    color: #1c5b72;
+    font-size: 2.618em
+  }
+  
+  @media (min-width:500px) {
+    h1 {
+      font-size: 4.236em;
+      font-weight: 300
+    }
+  }
+  
+  p {
+    margin-bottom: 1.3em;
+    line-height: 1.618
+  }
+  
+  @media (min-width:500px) {
+    p {
+      font-size: 1.3em
+    }
+  }
+  
+  a {
+    color: #1c5b72;
+    text-decoration: none
+  }

@@ -1,5 +1,7 @@
 import React from "react"
 import '../Footer/Footer.css'
+  //let mylogo= require('../../asssets/images/NDamar/7.svg') 
+  import mylogo from '../../asssets/images/NDamar/lastVersion.png'
 export default function Footer() {
   const MenuItems=[
     {
@@ -13,18 +15,26 @@ export default function Footer() {
       cName:"nav-links"
     },
     {
+      Titre:"A Propos",
+      Url:"#",
+      cName:"nav-links"
+    },
+    {
       Titre:"Services",
       Url:"#",
       cName:"nav-links"
     }
   ]
+
     return (
   <>
-   <div className="container">
+   <div className="container__header">
+    
+  
+
     <div className="Navigation">
       <div className="Logo">
-        <img src="" alt=""/>
-        <h1 className="name-logo">NDaamar</h1>
+        <img src={mylogo} alt="title_web" className="mylogo"/>
       </div>
       <div className="links" >
         <ul>
